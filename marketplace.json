@@ -1,0 +1,10 @@
+{
+  "name": "aesir-marketplace",
+  "plugins": [
+    {
+      "name": "workflow-tools",
+      "description": "Context preservation (prepare-compact, restore-context) and enhanced statusline",
+      "source": "aesirsystems/claude-workflow-tools"
+    }
+  ]
+}
