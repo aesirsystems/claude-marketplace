@@ -6,11 +6,19 @@
   },
   "plugins": [
     {
-      "name": "workflow-tools",
-      "description": "Context preservation (prepare-compact, restore-context) and enhanced statusline",
+      "name": "breadcrumbs",
+      "description": "Context preservation across compactions (prepare-compact, restore-context)",
       "source": {
         "source": "url",
-        "url": "https://github.com/aesirsystems/claude-workflow-tools.git"
+        "url": "https://github.com/aesirsystems/claude-breadcrumbs.git"
+      }
+    },
+    {
+      "name": "statusline",
+      "description": "Enhanced statusline with model, auth, git/path, context bar, duration, and churn",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aesirsystems/claude-statusline.git"
       }
     }
   ]

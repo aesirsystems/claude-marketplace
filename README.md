@@ -12,10 +12,12 @@ Claude Code plugin marketplace from [Aesir Systems](https://github.com/aesirsyst
 
 | Plugin | Description |
 |--------|-------------|
-| [workflow-tools](https://github.com/aesirsystems/claude-workflow-tools) | Context preservation, recovery skills, and enhanced statusline |
+| [breadcrumbs](https://github.com/aesirsystems/claude-breadcrumbs) | Context preservation across compactions (prepare-compact, restore-context) |
+| [statusline](https://github.com/aesirsystems/claude-statusline) | Enhanced statusline with model, auth, git/path, context bar, duration, churn |
 
-## Install a plugin
+## Install
 
 ```
-/plugin install workflow-tools@aesir-marketplace
+/plugin install breadcrumbs@aesir-marketplace
+/plugin install statusline@aesir-marketplace
 ```
