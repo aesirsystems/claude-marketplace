@@ -1,10 +1,17 @@
 {
   "name": "aesir-marketplace",
+  "owner": {
+    "name": "Aaron Lippold",
+    "email": "lippold@gmail.com"
+  },
   "plugins": [
     {
       "name": "workflow-tools",
       "description": "Context preservation (prepare-compact, restore-context) and enhanced statusline",
-      "source": "aesirsystems/claude-workflow-tools"
+      "source": {
+        "source": "github",
+        "repo": "aesirsystems/claude-workflow-tools"
+      }
     }
   ]
 }
