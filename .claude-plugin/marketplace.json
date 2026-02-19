@@ -9,8 +9,8 @@
       "name": "workflow-tools",
       "description": "Context preservation (prepare-compact, restore-context) and enhanced statusline",
       "source": {
-        "source": "github",
-        "repo": "aesirsystems/claude-workflow-tools"
+        "source": "url",
+        "url": "https://github.com/aesirsystems/claude-workflow-tools.git"
       }
     }
   ]
